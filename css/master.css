@@ -116,3 +116,8 @@ footer{
   font-weight:400;
   font-size:14px;
 }
+
+.current{
+  font-weight: 600;
+  color:#1399BB;
+}
