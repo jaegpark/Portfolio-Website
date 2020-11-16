@@ -163,3 +163,12 @@ nav ul li ul li a{
   font-weight: 600;
   color:#1399BB;
 }
+
+footer{
+  display: block;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  font-weight:400;
+  font-size:14px;
+}
