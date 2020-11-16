@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="css/blog.css">
     <meta charset="utf-8">
     <title>Jae Park - Projects</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/master.css">
   </head>
 
   <body>
@@ -21,41 +21,66 @@
     </header>
 
     <main>
+
       <h1>Projects</h1>
       <br><hr><br>
-      <h2>University of Toronto Space Design Contest</h2>
-      <article>
-        <p>
-          My team of 5 drafted and presented a 20 page solution proposal in response to a given problem scenario. (2018).
-        </p>
-        <br>
-          <embed src="resources/utsdc.pdf" type="application/pdf" width="100%" height="600px"/>
-      </article>
-      <br><br>
-      <h2>Simon Says</h2>
-      <article>
-        <p>
-          A digital version of the "Simon Says" electronic game. This was created in Turing, and my first ever programming project. (2018).
-          <a href="https://github.com/thejammerr/ICS2O3" target="_blank"><button type="button">Go to Github</button></a>
-        </p>
-      </article>
-      <br><br>
-      <h2>Theatre Widget</h2>
-      <article>
-        <p>
-          A program that allows a user to manage a 30 x 20 theatre seating. This was created in Java, and my first project in Java. (2019).
-          <a href="https://github.com/thejammerr/ICS3U3" target="_blank"><button type="button">Go to Github</button></a>
-        </p>
-      </article>
-      <br><br>
-      <h2>Defeat the Heat</h2>
-      <article>
-        <p>
-          A 3-level educational game on fire safety, focusing on fire safety, fire prevention, and fire fighting. Created in Java, and most artwork done digitally. (2019).
-          <a href="https://github.com/thejammerr/DefeatTheHeat" target="_blank"><button type="button">Go to Github</button></a>
-        </p>
-        <br><br>
-      </article>
+      <div class="band">
+
+        <div class="item-1">
+          <a href="https://github.com/IncendiumAcademy" class="card">
+            <div class="thumb" style="background-image: url(images/incendium.png);"></div>
+            <article>
+              <h1>Incendium Academy</h1>
+              <p>We are a non-profit education platform that aims to level the playing field for high school students who cannot afford STEM contest preparation.</p>
+              <span>HTML/SCSS 2020</span>
+            </article>
+          </a>
+        </div>
+
+        <div class="item-2">
+          <a href="https://github.com/thejammerr/DefeatTheHeat" target="_blank" class="card">
+            <div class="thumb" style="background-image: url(images/defeattheheat.png);"></div>
+            <article>
+              <h1>Defeat The Heat</h1>
+              <p>A 3-level educational game on fire safety, fire prevention, and fire fighting. Game artwork done digitally.</p>
+              <span>Java 2019</span>
+            </article>
+          </a>
+        </div>
+
+        <div class="item-3">
+          <a href="https://github.com/thejammerr/ICS3U3" target="_blank" class="card">
+            <div class="thumb" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/users-2.png);"></div>
+            <article>
+              <h1>Theatre Widget</h1>
+              <p>A program that allows a user to manage a 30 x 20 theatre seating, using file IO.</p>
+              <span>Java 2018</span>
+            </article>
+          </a>
+        </div>
+
+        <div class="item-4">
+          <a href="https://github.com/thejammerr/ICS2O3" target="_blank" class="card">
+            <div class="thumb" style="background-image: url(images/simonsays.png);"></div>
+            <article>
+              <h1>Simon Says</h1>
+              <p>A digital version of the "Simon Says" electronic game. This was my first ever programming project.</p>
+              <span>Turing 2018</span>
+            </article>
+          </a>
+        </div>
+
+        <div class="item-5">
+          <a href="resources/utsdc.pdf" target="_blank" class="card">
+            <div class="thumb" style="background-image: url(images/utsdc.jpg);"></div>
+            <article>
+              <h1>University of Toronto Space Design Contest</h1>
+              <p>My team of 5 drafted and presented a 20 page solution proposal in response to a given problem scenario.</p>
+              <span>2018</span>
+            </article>
+          </a>
+        </div>
+      </div>
     </main>
 
     <footer>
