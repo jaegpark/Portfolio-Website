@@ -1,5 +1,5 @@
-# PublicProfile
-This is my public profile, made in HTML/CSS as a side project started in my grade 11 year.
+# Portfolio
+This is my portfolio site, made in HTML/CSS as a side project started in my grade 11 year.
 
 This website will include my resume, who I am, as well as projects I've worked and will be working on in the future.
 
