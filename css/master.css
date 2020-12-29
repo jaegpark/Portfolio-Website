@@ -8,8 +8,8 @@ html{
   color:#212529;
 
   font-family: system-ui;
-  font-weight:400;
-  font-size:18px;
+  font-weight:300;
+  font-size:14px;
 }
 
 body{
@@ -59,7 +59,7 @@ nav ul li{
 nav ul li a{
   display:block;
   font-size:16px;
-  padding: 16px 14px;
+  padding: 20px 15px;
 }
 
 nav ul li a:hover{
@@ -110,6 +110,5 @@ footer{
 }
 
 .current{
-  font-weight: 600;
   color:#1399BB;
 }
