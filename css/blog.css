@@ -1,174 +1,174 @@
+/*UNIVERSAL*/
 *{
-  margin:0;
-  padding:0;
+margin:0;
+padding:0;
 }
-a{
-  text-decoration: none;
-  color: #212529;
-}
-html{
-  color:#212529;
 
-  font-family: system-ui;
-  font-weight:400;
-  font-size:18px;
+html{
+color:#212529;
+
+font-family: system-ui;
+font-weight:300;
+font-size:14px;
 }
 
 body{
-  background-color: white;
-  background-attachment:fixed;
+background-color: white;
+background-attachment:fixed;
+}
+
+a{
+text-decoration: none;
+color: #212529;
 }
 
 main{
-  width:60%;
-  margin: 0 auto;
-  padding: 20px 0;
-  -webkit-font-smoothing: antialiased;
+width:60%;
+margin: 0 auto;
+padding: 20px 0;
+-webkit-font-smoothing: antialiased;
 }
 
-
-
 nav{
-  position:static;
-  height: 60px;
-  background-color: #F4F6F6;
+position:static;
+height: 60px;
+background-color: #F4F6F6;
 }
 
 nav p{
-  font-size:24px;
-  line-height: 55px;
-  float:left;
-  padding:0px 20px;
+font-size:24px;
+line-height: 55px;
+float:left;
+padding:0px 20px;
 }
 
 nav p a{
-  text-decoration: none;
+text-decoration: none;
 }
 
 nav ul{
-  float:left;
+float:left;
 }
 
 nav ul li{
-  float:left;
-  list-style: none;
-  position:relative;
+float:left;
+list-style: none;
+position:relative;
 }
 
 nav ul li a{
-  display:block;
-  font-size:16px;
-  padding: 16px 14px;
+display:block;
+font-size:16px;
+padding: 20px 15px;
 }
 
 nav ul li a:hover{
-  color: #10BBE7;
+color: #10BBE7;
 }
 
 nav ul li ul{
-  display:none;
-  position:absolute;
-  background-color:#F4F6F6;
-  padding:10px;
-  border-radius:0px 0px 4px 4px;
+display:none;
+position:absolute;
+background-color:#F4F6F6;
+padding:10px;
+border-radius:0px 0px 4px 4px;
 }
 
 nav ul li:hover ul{
-  display:block;
+display:block;
 }
 
 nav ul li ul li{
-  width:180px;
-  border-radius:4px;
+width:180px;
+border-radius:4px;
 }
 
 nav ul li ul li a{
-  padding:8px 14px
+padding:8px 14px
 }
 
-
- .band {
-	 width: 90%;
-   max-width: 1240px;
-	 display: grid;
-	 grid-template-columns: 1fr;
-	 grid-template-rows: auto;
-	 grid-gap: 20px;
-}
- @media (min-width: 30em) {
-	 .band {
-		 grid-template-columns: 1fr 1fr;
-	}
-}
- @media (min-width: 60em) {
-	 .band {
-		 grid-template-columns: repeat(4, 1fr);
-	}
-}
- .card {
-	 background: white;
-	 text-decoration: none;
-	 color: #444;
-	 box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-	 display: flex;
-	 flex-direction: column;
-	 min-height: 100%;
-	 position: relative;
-	 top: 0;
-	 transition: all 0.1s ease-in;
-}
- .card:hover {
-	 top: -2px;
-	 box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
-}
- .card article {
-	 padding: 20px;
-	 flex: 1;
-	 display: flex;
-	 flex-direction: column;
-	 justify-content: space-between;
-}
- .card h1 {
-	 font-size: 20px;
-	 margin: 0;
-	 color: #333;
-}
- .card p {
-	 flex: 1;
-	 line-height: 1.4;
-}
- .card span {
-	 font-size: 12px;
-	 font-weight: bold;
-	 color: #999;
-	 text-transform: uppercase;
-	 letter-spacing: 0.05em;
-	 margin: 2em 0 0 0;
-}
- .card .thumb {
-	 padding-bottom: 60%;
-	 background-size: cover;
-	 background-position: center center;
-}
- @media (min-width: 60em) {
-	 .item-1 {
-		 grid-column: 1 / span 2;
-	}
-	 .item-1 h1 {
-		 font-size: 24px;
-	}
+main table tr td a img{
+border: 0;
+vertical-align: middle;
+width:50px;
+height:50px;
+border: 2px solid white;
+float: right;
 }
 
-.current{
-  font-weight: 600;
-  color:#1399BB;
+main table tr td a img:hover{
+opacity: 0.5;
 }
 
 footer{
-  display: block;
-  text-align: center;
-  bottom: 0;
-  width: 100%;
-  font-weight:400;
-  font-size:14px;
+display: block;
+text-align: center;
+bottom: 0;
+width: 100%;
+font-weight:400;
+font-size:14px;
 }
+
+.current{
+color:#1399BB;
+}
+
+/*blog css*/
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 70%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 30%;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+     background-color: white;
+     padding: 20px 0px;
+     /*margin-top: 10px;*/
+     color: #444;
+  }
+
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  
