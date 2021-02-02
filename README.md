@@ -1,6 +1,7 @@
 # Portfolio
-This is my portfolio site, made in HTML/CSS as a side project started in my grade 11 year.
 
-This website will include my resume, who I am, as well as projects I've worked and will be working on in the future.
+This is my portfolio site, made in HTML/CSS as a side project started in my grade 10 year.
 
-I also hope to create a blog over the summer, recording my experiences during the last summer break of high school.
+This website includes my resume, blog posts, as well as projects I've worked and will be working on in the future.
+
+I've recently moved my actual portfolio over to the `site` repository, that uses a better design using ruby gems.
